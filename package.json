@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/Joe1220/typechain.git",
   "author": "joe1220 <joe1220@daum.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.3.2",
+    "typescript": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
